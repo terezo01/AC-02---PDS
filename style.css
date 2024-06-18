@@ -8,16 +8,22 @@ header{
     justify-content: space-between;
     align-items: center;
     max-width: 100%;
-    max-height: 100px;
-    padding: 25px 20px;
+    max-height: 80px;
+    padding: 0 20px;
     background-color: rgb(255, 255, 255);
+}
+
+a{
+    color: black;
+    text-decoration: none;
 }
 
 #nav-header{
     display: flex;
     gap: 20px;
-    font-size: large;
+    font-size: x-large;
     font-weight: 700;
+    padding: 25px 0;
 }
 
 #img-container{
@@ -131,19 +137,22 @@ footer{
     justify-content: space-between;
     align-items: center;
     max-width: 100%;
-    max-height: 100px;
-    padding: 20px 20px;
+    max-height: 70px;
+    padding: 0 20px;
     background-color: rgb(255, 255, 255);
 }
 
-.logo{
-    height: 50px;
+.img-logo{
+    width: 180px;
+    height: auto;
+    overflow: hidden;
 }
 
 #icons{
     display: flex;
     gap: 30px;
     margin-right: 10px;
+    padding: 25px 10px;
 }
 
 .icon{
