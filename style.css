@@ -30,7 +30,6 @@ a{
     position: relative;
     background-image: url(img/Minecraft-ps5.jpg);
     width: 100%;
-    max-width: 100%;
     height: 800px;
     background-size: cover;
     background-position: center;
@@ -81,6 +80,7 @@ a{
     justify-content: space-between;
     background-color: rgb(82, 163, 53);
     height: 400px;
+    width: 100%;
 }
 
 #creeper{
