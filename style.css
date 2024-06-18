@@ -60,6 +60,7 @@ a{
 #mobs-img{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .mob-img{
@@ -79,12 +80,12 @@ a{
     display: flex;
     justify-content: space-between;
     background-color: rgb(82, 163, 53);
-    display: flex;
-    max-height: 1000px;
+    height: 400px;
 }
 
 #creeper{
     width: 400px;
+    height: 400px;
 }
 
 #cadastro{
@@ -158,4 +159,15 @@ footer{
 .icon{
     width: 30px;
     height: 30px;
+}
+
+@media (max-width:930px){
+    #cadastro-container{
+        display: flex;
+        justify-content: center;
+    }
+
+    #creeper{
+        display: none;
+    }
 }
