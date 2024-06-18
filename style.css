@@ -30,14 +30,14 @@ a{
     position: relative;
     background-image: url(img/Minecraft-ps5.jpg);
     width: 100%;
-    height: 800px;
+    height: 10%;
     background-size: cover;
     background-position: center;
 }
 
 #img-h1{
-    font-size: 80px;
-    padding: 60px;
+    font-size: 450%;
+    padding: 7%;
     text-shadow: 2px 2px 20px rgb(255, 255, 255);
     margin: 0;
 }
@@ -49,7 +49,7 @@ a{
     color: white;
     border-radius: 10px;
     font-size: large;
-    margin: 200px 0 0 60px;
+    margin: 7%;
 }
 
 #mobs{
@@ -167,7 +167,42 @@ footer{
         justify-content: center;
     }
 
+    #cadastro{
+        padding: 0px;
+    }
+
     #creeper{
         display: none;
+    }
+}
+
+@media (max-width:640px){
+    header{
+        display: flex;
+        justify-content: center;
+    }
+    #img-header{
+        display: none;
+    }
+
+    #img-container{
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        gap: 40px;
+    }
+
+}
+
+@media (max-width:400px){
+    .logo{
+        display: none;
+    }
+
+    #img-container{
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        gap: 20px;
     }
 }
